@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="49.172" height="68" viewBox="0 0 49.172 68">
+  <g id="packaging" transform="translate(1.5 1.5)">
+    <path id="path1178" d="M0,0V47.068H-43.91V0" transform="translate(1.131 56.034) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="path1180" d="M-1.131,0,0,7.836l-6.621,1.13-5.49-1.13L-17.6,8.966l-5.489-1.13-5.489,1.13-5.489-1.13-5.488,1.13-6.619-1.13L-45.041,0" transform="translate(0 8.966) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="path1182" d="M-45.041,8.966l-1.131-7.833L-39.552,0l5.49,1.133L-28.573,0l5.489,1.133L-17.6,0l5.489,1.133L-6.619,0,0,1.133-1.131,8.966" transform="translate(0 65) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="path1184" d="M0,.05H-43.91" transform="translate(1.131 56.121) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="path1186" d="M0,2.824A9.057,9.057,0,0,1-3.827,8.632a8.579,8.579,0,0,1-6.775.891,9.847,9.847,0,0,1-5.225-3.247,12.311,12.311,0,0,1,4.294-4.554A9.552,9.552,0,0,1-5.4.045,8.669,8.669,0,0,1,0,2.824Z" transform="translate(23.087 33.378) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="path1188" d="M-15.828,2.824A9.058,9.058,0,0,0-12,8.632a8.58,8.58,0,0,0,6.775.891A9.832,9.832,0,0,0,0,6.275,12.313,12.313,0,0,0-4.294,1.721,9.552,9.552,0,0,0-10.43.045a8.668,8.668,0,0,0-5.4,2.779Z" transform="translate(7.257 33.378) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+    <path id="path1190" d="M-.05,18.911V0" transform="translate(23.072 49.465) rotate(-180)" fill="none" stroke="#96c72c" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" stroke-width="3"/>
+  </g>
+</svg>
