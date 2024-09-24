@@ -17,7 +17,7 @@ body, html{
         @apply text-[38px] lg:text-[64px] xl:text-[66px] leading-[1.2] font-bold font-notosans;
     }
     h2, .h2{
-      @apply text-[28px] lg:text-[32px] xl:text-[38px] leading-[1.2] font-bold font-notosans;
+      @apply text-[28px] lg:text-[32px] xl:text-[36px] leading-[1.2] font-bold font-notosans;
     }
     h3, .h3{
         @apply text-[18px] lg:text-[20px] xl:text-[24px] leading-none font-bold font-notosans;
@@ -134,6 +134,24 @@ body, html{
 
  #home-hero{
   margin-top: -109px;
+ }
+
+ .first-image{
+  height: 440px;
+  margin-top: -250px;
+ }
+
+ .feature-icon{
+  width: 135px;
+  height: 135px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: $green;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 52px;
  }
 
 @import "./media";
