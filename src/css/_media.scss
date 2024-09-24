@@ -15,13 +15,52 @@
 }
 
 @media screen and (min-width: 992px){
-
+  .main-menu ul{
+    display: flex;
+    gap:20px;
+    & li{
+      & a{
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 18px 10px;
+        position: relative;
+        &::after{
+          content: '';
+          width: 0;
+          height: 1px;
+          background-color: transparent;
+          position: absolute;
+          left: 0;
+          bottom: 0;
+          right: 0;
+          transition: width 0.3s ease-in-out;
+          margin-left: auto;
+          margin-right: auto;
+        }
+        &:hover::after{
+          width: 100%;
+          background-color: #fff;
+        }
+      }
+    }
+  }
+  #home-hero{
+    margin-top: -124px;
+  }
+  .triangle {
+    border-width: 0 0 170px 170px;
+ }
 }
 
 @media screen and (min-width: 1250px){
-
+  .main-menu ul{
+    gap:40px;
+  }
 }
 
 @media screen and (min-width: 1450px){
-
+  .main-menu ul{
+    gap:80px;
+  }
 }

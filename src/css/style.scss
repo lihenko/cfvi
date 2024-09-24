@@ -11,22 +11,22 @@ body, html{
 
 @layer components {
     body{
-        @apply bg-white text-grey text-sm lg:text-base;
+        @apply bg-white text-black text-sm lg:text-base;
     }
     h1, .h1{
-        @apply text-[38px] lg:text-[64px] xl:text-[66px] leading-[1.2] font-bold font-kollektif;
+        @apply text-[38px] lg:text-[64px] xl:text-[66px] leading-[1.2] font-bold font-notosans;
     }
     h2, .h2{
-      @apply text-[28px] lg:text-[32px] xl:text-[38px] leading-[1.2] font-bold font-kollektif;
+      @apply text-[28px] lg:text-[32px] xl:text-[38px] leading-[1.2] font-bold font-notosans;
     }
     h3, .h3{
-        @apply text-[18px] lg:text-[20px] xl:text-[24px] leading-none font-bold font-kollektif;
+        @apply text-[18px] lg:text-[20px] xl:text-[24px] leading-none font-bold font-notosans;
     }
     h4, .h4{
-        @apply text-[16px] lg:text-[18px] xl:text-[20px] leading-none font-bold font-kollektif;
+        @apply text-[16px] lg:text-[18px] xl:text-[20px] leading-none font-bold font-notosans;
     }
     h5{
-        @apply text-[18px] lg:text-[22px] font-bold leading-none font-kollektif;
+        @apply text-[18px] lg:text-[22px] font-bold leading-none font-notosans;
     }
     p{
         @apply mb-3 sm:mb-8;
@@ -35,10 +35,8 @@ body, html{
         @apply mx-auto px-3;
     }
 
-    .wide-container{
-      max-width: 1450px;
-      margin-left: auto;
-      margin-right: auto;
+    .container-fluid{
+      @apply mx-auto px-8;
     }
 
     input[type=text], input[type=email], input[type=tel], input[type=url], input[type=number], input[type=password]{
@@ -89,13 +87,13 @@ body, html{
     }
 
     a{
-      @apply transition-all text-green font-bold;
+      @apply transition-all text-green;
       &:hover{
         @apply text-darkgreen;
       }
     }
     .btn{
-      @apply transition-all rounded-3xl py-[13px] px-5 text-sm font-bold inline-block uppercase w-[298px] max-w-full text-center;
+      @apply transition-all py-[13px] px-5 text-sm font-normal inline-block w-[148px] max-w-full text-center;
     }
     .green-btn{
       color: #fff;
@@ -112,9 +110,30 @@ body, html{
         color: $grey;
         background-color: #ccc;
       }
+    }
+    .outline-btn{
+      color: #fff;
+      border: 1px solid #fff;
+      &:hover{
+        color: $green;
+        background-color: #fff;
+      }
     }  
   }
 
+  .triangle {
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 0 50px 50px;
+    border-color: transparent transparent #fff transparent;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+ }
 
+ #home-hero{
+  margin-top: -109px;
+ }
 
 @import "./media";

@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {},
     colors: {
-      'green': '#96C72C',
+      'green': '#03572D',
       'darkgreen': '#85B223',
       'lightgreen': '#EBF1DE',
       'violet': '#574599',
@@ -13,7 +13,7 @@ module.exports = {
       'grey' : '#373938',
       'darkgrey' : '#979797',
       'lightgrey' : '#F6F6F3',
-      'black' : '#000000',
+      'black' : '#231F20',
       'blue' : '#2C3C54',
       'pink' : '#C5A7CD',
       'brown' : '#512511',
@@ -21,17 +21,16 @@ module.exports = {
       'yellow' : '#FFAD15',
     },
     fontFamily: {
-      'sans': ['Karla', 'sans-serif'],
-      'karla': ['Karla', 'sans-serif'],
-      'kollektif': ['Kollektif', 'sans-serif'],
-      'body': ['Karla', 'sans-serif'],
+      'sans': ['NotoSans', 'sans-serif'],
+      'notosans': ['NotoSans', 'sans-serif'],
+      'body': ['NotoSans', 'sans-serif'],
     },
     fontSize: {
-      xs: ['12px', '18px'],
-      sm: ['14px', '20px'],
+      xs: ['14px', '18px'],
+      sm: ['16px', '20px'],
       base: ['18px', '24px'],
-      lg: ['20px', '24px'],
-      xl: ['22px', '26px'],
+      lg: ['20px', '26px'],
+      xl: ['22px', '29px'],
     },
     screens: {
       'sm': '640px',
