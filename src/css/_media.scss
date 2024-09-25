@@ -33,6 +33,9 @@
     align-items: center;
     cursor: pointer;
   }
+  .video-button{
+    width: unset;
+  }
 }
 
 @media screen and (min-width: 768px){
@@ -61,6 +64,7 @@
   .testimonial-position{
     padding-left: 88px;
   }
+  
 }
 
 @media screen and (min-width: 992px){
@@ -92,6 +96,10 @@
           background-color: #fff;
         }
       }
+      &.current-menu-item a::after{
+        width: 100%;
+        background-color: #fff;
+      }
     }
   }
   #home-hero{
@@ -100,10 +108,16 @@
   .triangle {
     border-width: 0 0 90px 90px;
  }
+ #page-title{
+  margin-top: -124px;
+  background-position: center 110%;
+}
 }
 
 @media screen and (min-width: 1250px){
-
+   #page-title{
+    background-position: center 120%;
+  }
 }
 
 @media screen and (min-width: 1450px){
@@ -112,5 +126,12 @@
   }
   .testimonials-slider-next-button{
     right: -24px;
+  }
+  
+}
+
+@media screen and (min-width: 1600px){
+  #page-title{
+    background-size: 80%;
   }
 }
