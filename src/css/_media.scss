@@ -7,11 +7,60 @@
 }
 
 @media screen and (min-width: 640px){
-
+  .testimonials-slider-prev-button{
+    width: 48px;
+    height: 48px;
+    background-color: $black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .testimonials-slider-next-button{
+    width: 48px;
+    height: 48px;
+    background-color: $black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
 }
 
 @media screen and (min-width: 768px){
-
+  .testimonial-splash{
+    background-color: rgba(#231F20, 0.05);
+    padding: 40px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    &::after{
+      content: '';
+      width: 0px;
+      height: 0px;
+      border-style: solid;
+      border-width: 0 18px 84px 0;
+      border-color: transparent rgba(#231F20, 0.05) transparent transparent;
+      transform: rotate(0deg);
+      position: absolute;
+      bottom: -84px;
+      left: 40px;
+    }
+  }
+  
+  .testimonial-position{
+    padding-left: 88px;
+  }
 }
 
 @media screen and (min-width: 992px){
@@ -54,26 +103,14 @@
 }
 
 @media screen and (min-width: 1250px){
-  .main-menu ul{
-    gap:40px;
-  }
+
 }
 
 @media screen and (min-width: 1450px){
-  .main-menu ul{
-    gap:80px;
+  .testimonials-slider-prev-button{
+    left: -24px;
   }
-}
-
-@media screen and (min-width: 1500px){
-  .triangle {
-    border-width: 0 0 170px 170px;
-  }
-  .first-image{
-    height: 572px;
-    margin-top: -489px;
-   }
-  #home-hero{
-    padding-bottom: 588px;
+  .testimonials-slider-next-button{
+    right: -24px;
   }
 }
