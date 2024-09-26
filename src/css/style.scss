@@ -430,4 +430,11 @@ body, html{
   }
  }
 
+ .partner-logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 176px;
+ }
+
 @import "./media";
