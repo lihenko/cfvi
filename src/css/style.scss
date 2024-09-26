@@ -90,7 +90,7 @@ body, html{
     a{
       @apply transition-all text-green;
       &:hover{
-        @apply text-darkgreen;
+        @apply text-black;
       }
     }
     .btn{
@@ -359,4 +359,75 @@ body, html{
  .interview-video{
   margin-top: -100px;
  }
+
+ .feature-splash{
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: $green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  font-size: 52px;
+  font-weight: 700;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .slide-overlay{
+  width: 100%;
+  height: 69%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(35,31,32,0) 0%, #231F20 100%);
+ }
+
+ .slide-title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+ }
+
+ #key-industrials .slick-dots li button:before{
+  font-size: 42px;
+ }
+
+ #contact-section .address{
+  position: relative;
+  padding-left: 45px;
+  &::before{
+    content: url(../img/green-pin.svg);
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+ }
+
+ #contact-section .phone{
+  position: relative;
+  padding-left: 45px;
+  &::before{
+    content: url(../img/green-phone.svg);
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+ }
+
+ #contact-section .email{
+  position: relative;
+  padding-left: 45px;
+  &::before{
+    content: url(../img/green-email.svg);
+    position: absolute;
+    top: 2px;
+    left: 0;
+  }
+ }
+
 @import "./media";

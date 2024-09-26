@@ -33,9 +33,14 @@
     align-items: center;
     cursor: pointer;
   }
+  
   .video-button{
     width: unset;
   }
+  #key-industrials .slick-list{
+    padding: 0 35px!important;
+  }
+  
 }
 
 @media screen and (min-width: 768px){
@@ -114,15 +119,58 @@
   .triangle {
     border-width: 0 0 90px 90px;
  }
- #page-title{
-  margin-top: -124px;
-  background-position: center 110%;
-}
+  #page-title{
+    margin-top: -124px;
+    background-position: center 110%;
+  }
+  .key-industrials-slider{
+    & .key-industrials-slider-item{
+      transition: all 0.3s ease-in-out;
+      opacity: 1;
+    }
+    & .key-industrials-slider-item:not(.slick-active){
+      opacity: 0.3;
+    }
+  }
+  #key-industrials .slick-list{
+    padding: 0 75px!important;
+  }
+  .key-industrials-prev-button{
+    width: 48px;
+    height: 48px;
+    background-color: $black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 99;
+  }
+  .key-industrials-next-button{
+    width: 48px;
+    height: 48px;
+    background-color: $black;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    z-index: 99;
+  }
 }
 
 @media screen and (min-width: 1250px){
    #page-title{
     background-position: center 120%;
+  }
+  #key-industrials .slick-list{
+    padding: 0 122px!important;
   }
 }
 
@@ -139,5 +187,12 @@
 @media screen and (min-width: 1600px){
   #page-title{
     background-size: 80%;
+  }
+  
+}
+
+@media screen and (min-width: 1920px){
+  #key-industrials .slick-list{
+    padding: 0 50px!important;
   }
 }
