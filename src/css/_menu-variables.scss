@@ -1,12 +1,12 @@
 // Toggle Button
 // This controls the button that opens and closes the menu
 //* Colors
-$omm-button-icon-color: #fff !default;
-$omm-button-bg-color: #96C72C !default;
+$omm-button-icon-color: #000 !default;
+$omm-button-bg-color: #fff !default;
 $omm-button-icon-color-hover: "" !default;
 $omm-button-bg-color-hover: "" !default;
-$omm-button-icon-color-open: #fff !default;
-$omm-button-bg-color-open: #96C72C !default;
+$omm-button-icon-color-open: #000 !default;
+$omm-button-bg-color-open: #fff !default;
 //* Size
 $omm-button-size: 40px !default; // width and height are the same
 $omm-button-padding: 0 !default;
@@ -19,7 +19,7 @@ $omm-text-weight: inherit !default; // font weight value
 $omm-text-spacing: 10px !default; // margin between text and icon
 $omm-text-transform: uppercase !default; // text transform value
 //* Other
-$omm-button-radius: 5px !default;
+$omm-button-radius: 0 !default;
 $omm-button-position: absolute !default; // absolute, fixed
 $omm-button-position-top: 30px !default;
 $omm-button-position-right: 15px !default;
@@ -29,7 +29,7 @@ $omm-button-position-left: "" !default;
 // Menu
 // This controls the menus appearance when open
 $omm-body-bg-color: #FFFFFF !default;
-$omm-menu-bg-color: #96C72C !default;
+$omm-menu-bg-color: #fff !default;
 $omm-transition-duration: 0.5s !default;
 $omm-show-breakpoint: 991px !default;
 $omm-menu-direction: right !default; // left, right, full
@@ -40,7 +40,7 @@ $omm-box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2) !default; // open menu shadow on
 // Links
 // This controls the individual links inside the menu
 //* Colors
-$omm-link-color: #fff !default;
+$omm-link-color: #000 !default;
 $omm-link-bg-color: transparent !default;
 $omm-link-border-color: #E4E4E4 !default; // if empty, darkens menu-bg-color
 $omm-link-color-hover: "" !default;

@@ -297,4 +297,66 @@ body, html{
   }
  }
 
+ .solution-item{
+  aspect-ratio: 186/213;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-position: center;
+  background-size: cover;
+ }
+
+ .solution-overlay{
+  width: 100%;
+  height: 69%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(35,31,32,0) 0%, #231F20 100%);
+ }
+
+ .design-icon{
+  width: 135px;
+  height: 135px;
+  border-radius: 50%;
+  background-color: $green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+ }
+
+ .delivery-img{
+  background-position: center;
+  background-size: cover;
+  min-height: 290px;
+ }
+
+ .delivery-overlay{
+  width: 100%;
+  height: 69%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(180deg, rgba(35,31,32,0) 0%, #231F20 100%);
+ }
+
+ .delivery-title{
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 45px;
+ }
+
+ .interview-title{
+  padding-top: 50px;
+  padding-bottom: 140px;
+ }
+ .interview-video{
+  margin-top: -100px;
+ }
 @import "./media";
