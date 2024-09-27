@@ -226,3 +226,19 @@ jQuery('.key-industrials-slider')
   active_slides[0].classList.add('first-slide');
   active_slides[count-1].classList.add('last-slide');
 });
+
+var select = jQuery('.select-wrap');
+
+select.find('.select-list li').on('click', function () {
+  var option = jQuery(this).text();
+  jQuery(this).parents('.select-wrap').find('input').val(option);
+  jQuery(this).parents('.select-wrap').find('.select-field').text(option);
+});
+
+
+jQuery(document).ready( function() {
+  jQuery(".file-upload input[type=file]").change(function(){
+       var filename = jQuery(this).val().replace(/.*\\/, "");
+       jQuery("#filename").val(filename);
+  });
+});
